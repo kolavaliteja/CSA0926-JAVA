@@ -6,15 +6,15 @@ class Main
 	    Scanner s=new Scanner(System.in);
 		System.out.println("Enter username:");
 		String a=s.nextLine();
-		System.out.println("Re-enter username:");
+		System.out.println("Reenter username:");
 		String b=s.nextLine();
 		if(a.equals(b))
 		{
-		    System.out.println("valid");
+		    System.out.println("user is valid");
 		}
 	    else
 		{
-		    System.out.println("Invalid");
+		    System.out.println("user is Invalid");
 		}
 	}
 }
